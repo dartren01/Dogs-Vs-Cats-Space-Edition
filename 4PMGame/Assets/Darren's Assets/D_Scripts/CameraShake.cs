@@ -20,7 +20,7 @@ public class CameraShake : MonoBehaviour
             if (PlayerPrefs.GetInt("Vibrate") == 1)
             {
                 Debug.Log("Vibrate");
-                Handheld.Vibrate();
+                //Handheld.Vibrate();
             }
             else
                 Debug.Log("No Vibrate");
