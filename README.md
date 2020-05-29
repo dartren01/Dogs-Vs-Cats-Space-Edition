@@ -21,5 +21,5 @@ With this secret weapon in hand, you plunge your way towards the fleet ready to 
 Here is the game on itch:
 https://burger0l0.itch.io/4pm-game
 
-Music from:
-https://www.youtube.com/watch?v=vRRhVNwM6sc
+Play in the browser!
+https://dartren01.github.io/Dogs-Vs-Cats-Space-Edition/
