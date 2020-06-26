@@ -1,63 +1,55 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | DogsVCatsSpace</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGLBuild.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="content-box">
-      <p>
-        You're a cybernetic dog in a pod being hurled through space towards the planet Mars.
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Unity WebGL Player | DogsVCatsSpace</title>
+  <link rel="shortcut icon" href="TemplateData/favicon.ico">
+  <link rel="stylesheet" href="TemplateData/style.css">
+  <script src="TemplateData/UnityProgress.js"></script>
+  <script src="Build/UnityLoader.js"></script>
+  <script>
+    var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGLBuild.json", { onProgress: UnityProgress });
+  </script>
+</head>
+
+<body>
+  <div class="content-box">
+    <p class="description">
+      You're a cybernetic dog in a pod being hurled through space towards the planet Mars.
+      You were programmed by humans to be like a dog;
+      good boy who's obedient to its owners with an immense love for humans.
+      You're on a mission to see if Mars is habitable for mankind.
+      As you're hurling through space you see a fleet of evil space cats led by a
+      cat god who is waiting for you at the end of the fleet.
+      You don't fear the fleet for you have something hidden up your sleeve.
+      Your space pod is equipped with a state of the art magnet that
+      produces it's own gravity field and can attract/repel any material towards/away from it.
+      With this secret weapon in hand, you plunge your way towards the fleet ready to
+      destroy them in order to get to the planet mars.
       </br>
-        You were programmed by humans to be like a dog; 
+    </p>
+    <h3>
+      Please note this game was made for Android phones.
       </br>
-        good boy who's obedient to its owners with an immense love for humans. 
+      Controls: W A S D to move, Space to launch attached objects.
       </br>
-        You're on a mission to see if Mars is habitable for mankind. 
+    </h3>
+    <p>
+      <a href="https://github.com/dartren01/Dogs-Vs-Cats-Space-Edition">Github Repo</a>
       </br>
-        As you're hurling through space you see a fleet of evil space cats led by a
-      </br>
-        cat god who is waiting for you at the end of the fleet. 
-      </br>
-        You don't fear the fleet for you have something hidden up your sleeve.
-      </br>
-        Your space pod is equipped with a state of the art magnet that 
-      </br>
-        produces it's own gravity field and can attract/repel any material towards/away from it.
-      </br>
-        With this secret weapon in hand, you plunge your way towards the fleet ready to 
-      </br>
-        destroy them in order to get to the planet mars.
-      </br>
-      </br>
-      </p>
-      <h3>
-        Please note this game was made for Android phones.
-      </br>
-        Controls: W A S D to move, Space to launch attached objects.
-      </br>
-      </h3>
-      <p>   
-        <a href="https://github.com/dartren01/Dogs-Vs-Cats-Space-Edition">Github Repo</a>
-      </br>
-        <a href="https://burger0l0.itch.io/4pm-game">Itch.io Page</a>
-      </p>
+      <a href="https://burger0l0.itch.io/4pm-game">Itch.io Page</a>
+    </p>
+  </div>
+  <div class="webgl-content">
+    <div id="unityContainer"></div>
+    <div class="footer">
+      <div class="webgl-logo"></div>
+      <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+      <div class="title">DogsVCatsSpace</div>
     </div>
-    <div class="webgl-content">
-      <div id="unityContainer" style="width: auto; height: 80%"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
-        <div class="title">DogsVCatsSpace</div>
-      </div>
-    </div>
-  </body>
+  </div>
+</body>
+
 </html>
